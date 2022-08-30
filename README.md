@@ -24,4 +24,4 @@ of various languages to any employer looking to fill a work place position.
 
 2. Changed the design from what was originally showcased on the bootcamp website.
 
-3. Gave specuial attention to who this portfolio was for and what it's about.
+3. Gave special attention to my about criteria in this portfolio.
