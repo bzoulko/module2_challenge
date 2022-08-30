@@ -25,3 +25,4 @@ of various languages to any employer looking to fill a work place position.
 2. Changed the design from what was originally showcased on the bootcamp website.
 
 3. Gave special attention to my about criteria in this portfolio.
+![portfolio snapshot](https://user-images.githubusercontent.com/108200823/187459576-10551bd3-40eb-4d14-9be0-1b44c16b6f2f.png)
