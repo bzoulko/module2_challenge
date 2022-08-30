@@ -1,0 +1,113 @@
+<!-- 
+    Created:    08/28/2022 
+    Programmer: Brian Zoulko
+    Notes:      Devopled to assist employers in learning who I am and what skills/work abilities I have
+                without having met me.
+    
+    Modification
+    ============
+    08/28/20022 Brian Zoulko    Designed web-page and started portfolio development.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Heading section, defines layout and css modules used in controlling the web-page design. -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Zoulko's - Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/image_settings.css"/>
+    <link rel="stylesheet" href="./assets/css/grid_positioning.css"/>
+</head>
+
+
+<!--
+    This section is the main body for the web-page, complete layout will be done in this section.
+-->
+<body class="image-background" background="../images/portfolio_screen_backdrop.jpg">
+    
+    <header>
+        
+        <h1 class="title-name">Brian Zoulko&nbsp;</h1>
+        <div class="title-links">
+            <nav>
+                <!-- On Page links for easy screen placement. -->
+                <ul>                    
+                    <a title="Read Me" href="#about-me">About_Me</a>
+                    <a title="Work" href="#work">Work</a>
+                    <a title="Contact Me" href="#contact-me">Contact_Me</a>
+                    <a title="Resume" href="../resume.txt">Resume</a>
+                </ul>
+            </nav>     
+        </div>
+        <h2 class="title-profession">Web / Software Developer</h2>
+        
+    </header>
+    
+
+    <main>
+        
+        <section class="grid-container">
+            
+            <!-- About Me - Section -->
+            <div class="grid-cells cell-1">
+                <h2 id="about-me" class="title-cell">&nbsp;About_Me</h2>
+                <!--
+                <p class="textarea">I am computer programmer with skills from many different operating system enviornments. I have a vast knowledge of programming languages and expertise in several different software tools along with operating systems. For 18 years I worked in the IBM mainframe enviornment and for the last 10 years I've been working in Unix, Linix and PC enviorments. Mostly building GUI applications and working with several different database structures. All of which led me to develop some new abilities working with websites. From building "front-end" HTML web pages to structurdised "back-end" databases also known as a full-stack developer or commonly known as a web developer.</p> 
+                -->
+                <p title="About:  Brian Zoulko"  class="aboutme-area"><embed title="About:  Brian zoulko" type="text/html" src="../aboutme.txt" width="600" height="300"></p>
+                
+            </div>
+        
+            <!-- Portfolio Image - Section -->
+            <div class="grid-cells cell-2">
+                <img title="Brian Zoulko - Web/Software Developer" src="../images/IMG_20220827_155309.jpg" alt="Portfolio image">
+            </div>
+                
+            <!-- Work - Section -->
+            <div class="grid-cells cell-3">
+                <h2 id="work" class="title-cell">&nbsp;Work</h2>
+                <div class="work-area">
+
+                    <!-- Place holder images for future links to web-sites or web-designs that I've done. -->
+                    <img class="cell-c1-r1 cell-highlight" title="PlaceHolder #1" src="../images/placeholder.png" alt="Portfolio image" style="width:25%">
+                    <img class="cell-c1-r2 cell-highlight" title="PlaceHolder #2" src="../images/placeholder.png" alt="Portfolio image" style="width:25%">
+                    <img class="cell-c2-r1 cell-highlight" title="PlaceHolder #3" src="../images/placeholder.png" alt="Portfolio image" style="width:25%">
+                    <img class="cell-c2-r2 cell-highlight" title="PlaceHolder #4" src="../images/placeholder.png" alt="Portfolio image" style="width:25%">
+
+                </div>
+            </div>
+
+            <!-- Contact Me - Section -->
+            <div class="grid-cells cell-4">
+                <h2 id="contact-me" class="title-cell">&nbsp;Contact Me</h2>
+                <nav class="contacts-area">
+                    <ul>
+                        <!-- Links to call my phone number and to send me an email -->
+                        <li>
+                            <a href="Tel: 1-909-835-8703">1(909)835-8703<br></a>
+                            <a href="mailto:bzoulko@gmail.com">bzoulko@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <!-- Links to my accounts so employeer's can review me. -->
+                        <li>
+                            <a href="https://github.com/bzoulko">GitHub</a>
+                            <a href="https://www.linkedin.com/in/brian-zoulko-753810240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc3GDST0qT3G4bQVo5QVuzw%3D%3D">LinkedIn</a>
+                            <a href="https://indeed.com">Indeed</a>
+                        </li>
+                    </ul>
+                </nav>     
+            </div>
+
+        </section>      
+    </main>
+    
+    
+</body>
+
+</html>
